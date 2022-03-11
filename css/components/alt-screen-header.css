@@ -20,8 +20,7 @@
 }
 
 .alt-header__column:nth-child(2) {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .alt-header__column:last-child {
@@ -30,6 +29,6 @@
   margin-left: auto;
 }
 
-.alt-header__column:last-child span {
-  margin-left: 10px;
+.alt-header__column span:last-child {
+  margin-left: 20px;
 }
